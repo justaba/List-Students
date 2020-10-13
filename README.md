@@ -2,6 +2,8 @@
   
   <h2>Getting Started</h2>
   <p>To get started, first install all the necessary dependencies. </p>
+<h5>Backend</h5>: NodeJs, Express, MongoDB, Typescript
+<h5>Frontend</h5>: React, Typescript
   
 <h3>Backend</h3>
   
