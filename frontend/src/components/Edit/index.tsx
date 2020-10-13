@@ -24,7 +24,6 @@ const Edit: React.FC = () => {
     const handleChange = (e: any) => {
         e.preventDefault();
         let {name, value} = e.target;
-        console.log(name, value)
         switch(name) {
             case 'name':
                 editState.name = value;
@@ -50,7 +49,7 @@ const Edit: React.FC = () => {
             <TextField margin="normal" defaultValue={state[0].name} fullWidth label="Введите ФИО" name="name" onChange={handleChange} />
             <TextField type="date" defaultValue={state[0].date} margin="normal" fullWidth label="Дата рождения" name="date" onChange={handleChange} />
             <TextField margin="normal" defaultValue={state[0].estimate} fullWidth label="Успеваемость" name="estimate" onChange={handleChange} />
-            <Button onClick={onSubmit} variant="contained" color="primary">Добавить</Button>
+            <Button onClick={onSubmit} variant="contained" color="primary">Обновить</Button>
         </div>
     )
 }
