@@ -1,0 +1,7 @@
+.edit a {
+    color: #000000;
+}
+
+.delete {
+    cursor: pointer;
+}

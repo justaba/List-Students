@@ -1,0 +1,5 @@
+.head-table {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}

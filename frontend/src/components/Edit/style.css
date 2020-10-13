@@ -1,0 +1,6 @@
+.edit-student {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
