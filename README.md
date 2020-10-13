@@ -29,11 +29,6 @@ npm run start
 npm run build
 ```
 
-<p>Start production server</p>
-
-```
-npm run server
-```
 
 <p>Start the webpack development server</p>
 
